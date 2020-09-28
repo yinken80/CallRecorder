@@ -62,7 +62,7 @@ callRecord.startCallRecordService();
 ```
 
 
-# Installation
+# インストール
 
 Gradle
 
@@ -81,7 +81,7 @@ compile 'com.github.aykuttasil:CallRecorder:$lastVersion'
 ```
 
 
-# Thank You
+# コンタクト
 - [YinKen](https://github.com/yinken80)
 
 

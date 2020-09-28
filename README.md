@@ -2,7 +2,8 @@
 <img src="logo/1024.svg" width=100%>
 </h1>
 
-# Android Call Recorder
+# アンドロイドフォンコールレコーダー
+
 
 [![](https://jitpack.io/v/aykuttasil/CallRecorder.svg)](https://jitpack.io/#aykuttasil/CallRecorder)
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Call%20Recorder-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/4544)
@@ -61,46 +62,6 @@ callRecord.startCallRecordService();
 ```
 
 
-# Optimize
-
-If you wish stop save CallRecord file;
-
-```java
-callRecord.disableSaveFile();
-```
-
-and
-
-```java
-callRecord.enableSaveFile();
-```
-
-
-
-If you wish change save file name after initialize CallRecorder,
-
-```java
-callRecord.changeRecordFileName("NewFileName");
-```
-or
-```java
-callRecord.changeRecordDirName("NewDirName");
-```
-or
-```java
-callRecord.changeRecordDirPath("NewDirPath");
-```
-
-
----
-
-**Custom CallRecordReceiver**
-
-```java
-callRecord.changeReceiver(new MyCallRecordReceiver(callRecord));
-```
-
-
 # Installation
 
 Gradle
@@ -119,13 +80,9 @@ allprojects {
 compile 'com.github.aykuttasil:CallRecorder:$lastVersion'
 ```
 
-# Sample
-You can see sample project in app folder.
-
 
 # Thank You
-- [Luong Vo](https://github.com/luongvo)
-- [Mirza Zulfan](https://github.com/mirzazulfan)
+- [YinKen](https://github.com/yinken80)
 
 
 
